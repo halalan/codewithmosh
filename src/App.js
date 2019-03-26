@@ -6,7 +6,8 @@ import React, { Component } from 'react';
 // import Arrow from "./Arrow Functions/index";
 // import Array from "./Array.map Method/index";
 // import Destructuring from "./asset-1/Object Destructuring/index";
-import Operator from "./asset-1/Spread Operator/index";
+// import Operator from "./asset-1/Spread Operator/index";
+import Classes from "./asset-1/Classes/index";
 
 class App extends Component {
  
@@ -21,7 +22,8 @@ class App extends Component {
    {/* <Arrow/> */}
    {/* <Array /> */}
    {/* <Destructuring/> */}
-   <Operator />
+   {/* <Operator /> */}
+   <Classes />
       </div>
     
     );
