@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 
 const person ={
-      name : "Mosh",
+      name : "keyyyyyyyword",
       walk() {
           console.log(this);
       }
@@ -14,6 +14,7 @@ const walk = person.walk;
 walk(); 
 
 
+console.log(person.name)
 
 class Keyword extends Component {
  
