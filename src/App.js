@@ -5,8 +5,8 @@ import React, { Component } from 'react';
 // import Binding from "./Binding this/index";
 // import Arrow from "./Arrow Functions/index";
 // import Array from "./Array.map Method/index";
-import Destructuring from "./Object Destructuring/index";
-
+// import Destructuring from "./asset-1/Object Destructuring/index";
+import Operator from "./asset-1/Spread Operator/index";
 
 class App extends Component {
  
@@ -20,7 +20,8 @@ class App extends Component {
    {/* <Binding /> */}
    {/* <Arrow/> */}
    {/* <Array /> */}
-   <Destructuring/>
+   {/* <Destructuring/> */}
+   <Operator />
       </div>
     
     );

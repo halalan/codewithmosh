@@ -3,20 +3,20 @@ import React, { Component } from 'react'
 const address = {
     street: 'semangat',
     city: 'semarang',
-    country: '1234',
+    country: '1234'
 };
 
-const street = address.street;
-const city = address.city;
-const country = address.country;
+
+// const street = address.street;
+// const city = address.city;
+// const country = address.country;
 
 
+const { street : st } = address;
 
-console.log (street, city, country  );
 
-console.log(street);
-console.log(city);
-console.log(country);
+console.log(st)
+
 
 export default class index extends Component {
   render() {
