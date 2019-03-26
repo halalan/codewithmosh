@@ -1,24 +1,25 @@
 import React, { Component } from 'react';
   
-// const jobs = [
-//     { id: 1, isActive: true},
-//     { id: 2, isActive: true},
-//     { id: 3, isActive: false},
-//  ];
+const jobs = [
+    { id: 1, isActive: true},
+    { id: 2, isActive: true},
+    { id: 5, isActive: true},
+    { id: 5, isActive: true},
+    { id: 5, isActive: false},
+ ];
  
-//  const activeJobs = jobs.filter(function(job){ return job.isActive;});
-//  const activeJobs = jobs.filter(function(job){ return job.isActive;});
+ const activeJobs = jobs.filter(function(job){ return job.isActive;});
 
 
-//  console.log(activeJobs);
+ console.log(activeJobs);
 
 
 class Arrow extends Component {
   
   render() {
 
-const square = number => number * number;
-console.log(square(5));
+// const square = number => number * number;
+// console.log(square(5));
 
 
 
