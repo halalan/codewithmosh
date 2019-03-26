@@ -4,7 +4,8 @@ import React, { Component } from 'react';
 // import Keyword from "./The this Keyword/index";
 // import Binding from "./Binding this/index";
 // import Arrow from "./Arrow Functions/index";
-import Array from "./Array.map Method/index";
+// import Array from "./Array.map Method/index";
+import Destructuring from "./Object Destructuring/index";
 
 
 class App extends Component {
@@ -18,7 +19,8 @@ class App extends Component {
    {/* < Keyword/> */}
    {/* <Binding /> */}
    {/* <Arrow/> */}
-   <Array />
+   {/* <Array /> */}
+   <Destructuring/>
       </div>
     
     );
