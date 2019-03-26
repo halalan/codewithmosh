@@ -1,18 +1,33 @@
 import React, { Component } from 'react';
-  
-const jobs = [
-    { id: 1, isActive: true},
-    { id: 2, isActive: true},
-    { id: 5, isActive: true},
-    { id: 5, isActive: true},
-    { id: 5, isActive: false},
- ];
+// // ##function-2 ##//  
+//  const jobs = [
+//     { id: 1, isActive: true},
+//     { id: 2, isActive: true},
+//     { id: 5, isActive: true},
+//     { id: 5, isActive: true},
+//     { id: 5, isActive: false},
+//  ];
  
- const activeJobs = jobs.filter(function(job){ return job.isActive;});
+//  const activeJobs = jobs.filter(function(job){ return job.isActive;});
 
 
- console.log(activeJobs);
+//  console.log(activeJobs);
 
+
+//## Arrow Functions and this ##//
+
+const person = {
+    talk() {
+        var self = this; 
+            setTimeout(() =>{
+                console.log("self" ,self);
+            },100 );
+        }
+    }
+
+
+
+person.talk();
 
 class Arrow extends Component {
   

@@ -16,7 +16,7 @@ class App extends Component {
    {/* <Object /> */}
    {/* < Keyword/> */}
    {/* <Binding /> */}
-   <Arrow />
+   <Arrow/>
       </div>
     
     );
