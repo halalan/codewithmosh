@@ -14,7 +14,7 @@ import React, { Component } from 'react';
 //  console.log(activeJobs);
 
 
-//## Arrow Functions and this ##//
+//## Arrow Functions  this and self ##//
 
 const person = {
     talk() {

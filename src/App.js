@@ -3,7 +3,8 @@ import React, { Component } from 'react';
 // import Object from "./Objects/index";
 // import Keyword from "./The this Keyword/index";
 // import Binding from "./Binding this/index";
-import Arrow from "./Arrow Functions/index";
+// import Arrow from "./Arrow Functions/index";
+import Array from "./Array.map Method/index";
 
 
 class App extends Component {
@@ -16,7 +17,8 @@ class App extends Component {
    {/* <Object /> */}
    {/* < Keyword/> */}
    {/* <Binding /> */}
-   <Arrow/>
+   {/* <Arrow/> */}
+   <Array />
       </div>
     
     );
