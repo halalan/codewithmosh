@@ -20,7 +20,7 @@ const person = {
     talk() {
         var self = this; 
             setTimeout(() =>{
-                console.log("self" ,self);
+                console.log("selfi" ,self);
             },100 );
         }
     }
