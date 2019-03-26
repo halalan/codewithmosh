@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 
 const person = {
-    name: "Mosh",
+    name: "halalan",
     walk()  {
         console.log(this)
     }
@@ -12,7 +12,9 @@ person.walk();
 
 const walk = person.walk.bind(person);
 walk();
+ 
 
+console.log(person.name);
 
 class Binding extends Component {
   

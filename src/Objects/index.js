@@ -11,7 +11,7 @@ person.name = '';
 const targetMember = 'name' ;
 person[targetMember.value] = 'John'; 
 
-class Object extends Component {
+class Ojek extends Component {
   
   render() {
    
@@ -26,4 +26,4 @@ class Object extends Component {
 }
 
 
-export default Object;
+export default Ojek;
