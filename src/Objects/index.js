@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 const person = {
     name: "Mosh",
     walk() {},
-    talk() {}
+    talk() {},
 };
 person.talk();
 person.name = '';
