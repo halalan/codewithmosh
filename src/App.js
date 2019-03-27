@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
-import  Counter from "./asset-1/component/ Specifying Children/counter";
-// import  Counte from "./asset-1/component/Your First React Component/counter";
+
+import  Counte from "./asset-1/component/Your First React Component/counter";
 
 
 class App extends Component {
@@ -10,7 +10,7 @@ class App extends Component {
     return (
       
       <div>
-        <Counter />
+        <Counte />
    
     </div>
 
