@@ -8,8 +8,8 @@ export default class Counter extends Component {
     render() {
     return (
       <div>
-        <span>{this.formatCount}</span>
-        <button>daftar</button>
+        <span style={{fontSize: 30}} className="badge badge-primary m-2"> {this.formatCount}</span>
+        <button className="btn btn-secondary btn-sm"> daftar</button>
       </div>
     );
   }
