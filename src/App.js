@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
-// import  Conte from "./asset/component/Binding Event Handlers/counter";
-import  Coun from "./asset/component/Handling Events/counter";
+import  Conte from "./asset/component/Binding Event Handlers/counter";
+
 
 
 class App extends Component {
@@ -11,11 +11,7 @@ class App extends Component {
       
       <div>
   
-        {/* <Conte />
-      
-  
-  */}
-  <Coun />
+       <Conte />
     </div>
 
 
