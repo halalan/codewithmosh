@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
-import { Teacher } from "./teacher";
+import  Teacher, { promote } from "./teacher";
 
 
 const teacher = new Teacher("Mosh", "MSc");
 teacher.teach();
+
 
 
 export default class index extends Component {
