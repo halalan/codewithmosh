@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
-import  Modules from "./asset-1/Modules/index";
+
+import  Counter from "./asset-1/component/Embedding Expressions/counter";
 
 class App extends Component {
  
@@ -8,10 +9,10 @@ class App extends Component {
     return (
       
       <div>
+        <Counter />
+   
+    </div>
 
-   <Modules />
-
-      </div>
     
     );
   }
