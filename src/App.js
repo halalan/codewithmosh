@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
-import  Counter from "./asset/component/Rendering Classes Dynamically/counter";
 
+import  Counte from "./asset/component/Rendering Lists/counter";
 
 class App extends Component {
  
@@ -10,8 +10,8 @@ class App extends Component {
       
       <div>
       
-    <Counter />
-  
+   
+    <Counte />
     </div>
 
 

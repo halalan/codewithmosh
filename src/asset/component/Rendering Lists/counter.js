@@ -12,7 +12,7 @@ export default class Counter extends Component {
       <div>
         <span className="badge badge-primary m-2"> {this.formatCount()}</span>
         <button className="btn btn-secondary btn-sm"> daftar</button>
-    <ul>{this.state.tags.map(tag =><li>{tag}</li>)}</ul>
+    <ul>{this.state.tags.map(tag => <li key={tag}>{tag}</li>)}</ul>
       </div>
     );
   }
@@ -25,7 +25,7 @@ export default class Counter extends Component {
 
   formatCount() {
     const {count} = this.state;
-    return count === 0 ? "heroooooooooooo" : count;
+    return count === 0 ? "ngoding  terus" : count;
   }
 }
 
