@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 
 // import  Conte from "./asset/component/Binding Event Handlers/counter";
 // import  Coun from "./asset/component/Handling Events/counter";
-import  Counter from "./asset/component/Conditional Rendering/counter";
-// import  Counte from "./asset/component/Passing Event Arguments/counter";
+ import  Counte from "./asset/component/Passing Event Arguments/counter";
 
 class App extends Component {
  
@@ -11,12 +10,12 @@ class App extends Component {
     return (
       
       <div>
-         <Counter/>
   
         {/* <Conte />
       <Coun />
   
-    <Counte /> */}
+  */}
+    <Counte /> 
     </div>
 
 
