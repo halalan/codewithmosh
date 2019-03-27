@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
-import  Counter from "./asset-1/component/Setting Attributes/counter";
+import  Counter from "./asset/component/Rendering Classes Dynamically/counter";
+
 
 class App extends Component {
  
@@ -10,8 +11,9 @@ class App extends Component {
       <div>
       
     <Counter />
+  
     </div>
-    
+
 
     
     );
