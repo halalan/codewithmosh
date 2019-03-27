@@ -8,7 +8,9 @@ import React, { Component } from 'react';
 // import Destructuring from "./asset-1/Object Destructuring/index";
 // import Operator from "./asset-1/Spread Operator/index";
 // import Classes from "./asset-1/Classes/index";
-import  Inheritance from "./asset-1/ Inheritance/index";
+// import  Inheritance from "./asset-1/ Inheritance/index";
+import  Modules from "./asset-1/Modules/index";
+
 
 class App extends Component {
  
@@ -25,7 +27,9 @@ class App extends Component {
    {/* <Destructuring/> */}
    {/* <Operator /> */}
    {/* <Classes /> */}
-   < Inheritance/>
+   {/* < Inheritance/> */}
+
+   <Modules />
       </div>
     
     );

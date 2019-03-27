@@ -9,6 +9,13 @@ class SayHello extends Component {
     }
     console.log(i)
   }
+  // componentDidMount(){
+
+  //   for(var i =0; i<8;i++ ){
+  //     console.log(i)
+  //   }
+  
+  // }
 
   
   render() {
